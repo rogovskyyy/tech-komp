@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aisd_csharp", "aisd_csharp\aisd_csharp.csproj", "{BCB032F9-D064-40E8-BDC0-F3EC02C56B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB032F9-D064-40E8-BDC0-F3EC02C56B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB032F9-D064-40E8-BDC0-F3EC02C56B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB032F9-D064-40E8-BDC0-F3EC02C56B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB032F9-D064-40E8-BDC0-F3EC02C56B25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B874A2E-AF9D-462F-B415-2995B797F048}
+	EndGlobalSection
+EndGlobal
