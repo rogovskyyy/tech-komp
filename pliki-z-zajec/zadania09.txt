@@ -1,0 +1,43 @@
+
+Podobnie jak szablony, wa¿nym pojêciem - struktur¹, któr¹ nale¿y poznaæ
+zanim rozpoczniecie Pañstwo dalsze zag³êbianie siê w tajniki biblioteki STL,
+s¹ tzw. "obiekty funkcyjne" (function objects), bywaj¹ one nazywane 
+te¿ "funktorami" (functors). Ta ostatnia nazwa jest trochê nieszczêœliwa, 
+gdy¿ (jak zapewne czêœæ z Pañstwa, o bardziej rozbudzonych sumieniach 
+matematycznych wie), nazwa funktor wykorzystywana jest w teorii kategorii. 
+U¿ywana jest te¿ w ró¿nych jêzykach programowania (np. funkcjonalnych jak 
+Haskell) i wielu innych jêzykach w nieco ró¿nych kontekstach.
+
+https://www.geeksforgeeks.org/functors-in-cpp/
+
+https://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html
+
+https://stackoverflow.com/questions/356950/what-are-c-functors-and-their-uses
+
+https://www.bogotobogo.com/cplusplus/functors.php
+
+Dobre zestawienie literatury i odnoœników i zestaw artyku³ów nowszych standardów C++ 
+https://www.bogotobogo.com/cplusplus/cpptut.php
+m. in. do Thinking in C++
+
+Poni¿ej odsy³acze do tutoriali dostêpnych w Internecie, 
+które pozwol¹ Pañstwu na zapoznanie siê z bibliotek¹ STL 
+(Standard Tempalte Library), która sta³a siê bardzo
+istotnym elementem sk³adowym wspó³czesnego jêzyka C++.
+Wprowadzenie do STL
+
+https://www.cprogramming.com/tutorial/stl/stlintro.html
+
+https://www.geeksforgeeks.org/cpp-stl-tutorial/
+
+Zadanie 09.01. Wykorzystuj¹c doœwiadczenia zdobyte przy rozwi¹zywaniu zadañ 04 i 05,
+a tak¿e przyk³ad, który Pañstwu przes³a³em wczeœniej, proszê zdefiniowaæ klasê 
+szablon dla macierzy. Parametrem szablonu powinien byæ typ danych dla których 
+tworzona bêdzie macierz (np. double, float, int). Proszê zdefiniowaæ konstruktory 
+i destruktory. Klasa powinna dynamicznie alokowaæ pamiêæ, powinna wczytywaæ 
+i zapisywaæ dane na dysku, wyœwietlaæ siê na ekranie. Nale¿y te¿ zdefiniowaæ 
+operatory (overload) mno¿enia, dodawania, odejmowania oraz podstawiana (=) 
+(bez dzielenia z oczywistych wzglêdów) dla obiektów typu macierz.
+Zdefiniowan¹ klasê proszê sprawdziæ tj. napisaæ program, 
+który j¹ wykorzystuje (np. mno¿enie macierzy) dla ró¿nych
+parametrów szablonu.

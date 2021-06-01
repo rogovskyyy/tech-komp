@@ -1,0 +1,53 @@
+Kolejne istotne zagadnienie, z którym nale¿y siê zapoznaæ to rzecz, która po angielsku nazywa siê
+Generic programming. Dobry wstêp stanowi artyku³ w Wikipedii. Stanowi to wprowadzenie do zapoznania 
+siê z bibliotek¹ STL. 
+https://en.wikipedia.org/wiki/Generic_programming
+
+Opis i przyk³ady szablonów (templates) znajdziecie Pañstwo pod odsy³aczami
+
+https://www.cprogramming.com/tutorial/templated_functions.html
+
+https://www.cprogramming.com/tutorial/templates.html
+
+https://www.geeksforgeeks.org/templates-cpp/
+
+https://www.cprogramming.com/tutorial/template_specialization.html
+
+https://www.geeksforgeeks.org/g-fact-90/?ref=rp
+
+https://www.geeksforgeeks.org/templates-and-static-variables-in-c/?ref=rp
+
+Dla osób, które mia³y do czynienia z Jav¹ 
+https://www.geeksforgeeks.org/templates-in-c-vs-generics-in-java/?ref=rp
+
+
+Wa¿nym elementem jêzyka C++ jest mo¿liwoœæ zmiany definicji standardowych
+operatorów takich jak np. + - * / etc. Tzw. funkcje operatorowe.
+Jest to konsekwencja mo¿liwoœci przedefiniowywania wszystkich funkcji 
+w C++ (ang overloading). Bywa to czêsto t³umaczone jako "przeci¹¿anie"
+funkcji. (To jest wyj¹tkowo z³e t³umaczenie.)
+Trochê informacji znajdziecie pañstwo na stronach: 
+
+https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm
+
+https://www.geeksforgeeks.org/operator-overloading-c/
+
+http://www.cplusplus.com/doc/oldtutorial/classes2/
+
+http://www.c4learn.com/cplusplus/assignment-operator-overloading/
+
+dla osób preferuj¹cych "suche" definicje bez szczególnych wprowadzeñ
+
+https://en.cppreference.com/w/cpp/language/operators
+
+
+Zadanie 08.01. Proszê napisaæ program wspomagaj¹cy pracê kelnera np. e-pizza.
+Program powinien obs³ugiwaæ listê dañ (ew. sk³adników jak 
+np. w przypadku pizzy). Lista powinna byæ zapisywana trwale na dysku 
+i powinna istnieæ mo¿liwoœæ odczytu. Oraz list (liczba mnoga nie 
+bez powodu) zamówieñ zapisywanych w plikach np. stolik_10_2020_04_30_godz_1520.xxx 
+We wszystkich listach nale¿y uwzglêdniæ mo¿liwoœæ dodania elementu,
+usuniêcia, edycji (zmiany), odczytu i zapisu na dysku. 
+A tak¿e wykonania obliczeñ sumy dla zamówienia, statystyk takich jak 
+sumy dzienna dla ca³ej restauracji, dla stolika, iloœci poszczególnych dañ
+sprzedanych w dniu etc.
