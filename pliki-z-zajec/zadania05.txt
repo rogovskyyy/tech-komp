@@ -1,0 +1,60 @@
+Dynamiczna alokacja pamiêci.
+
+
+Przyk³ad funkcji alokuj¹cej dynamicznie tablice dwuwymiarowe.
+Proszê siê dok³adnie przyjrzeæ i przeanalizowaæ ten kod.
+
+/* Author:    MM (mmucha@amu.edu.pl)
+ * Created:   2016-05-30
+ * example for C++ programming class
+ */
+
+// Allocates memory for two dimensional table (matrix) of a size
+// int r - rows and
+// int c - columns
+// on success returns pointer to allocated table, NULL otherwise
+
+double **mat_create(int r, int c)
+{
+   double **m;
+   int i;
+
+   m = (double**) calloc(r, sizeof(double*)); // (double**) malloc(r * sizeof(double*));
+   if (m)
+   {
+      for (i = 0; i < r; i++)
+      {
+        m[i] = (double*) calloc(c, sizeof(double)); // (double*) malloc(c * sizeof(double));
+        if (!m[i])
+        {
+#if defined POLISH
+           fprintf(stderr,"Blad alokacji tablicy 2 (wiersz %d)\n",i);
+#else
+           fprintf(stderr,"Memory allocation error 2 (row %d)\n",i);
+#endif // defined
+           exit(1);
+        }
+      }
+   }
+   else
+   {
+#if defined POLISH
+      fprintf(stderr,"Blad alokacji tablicy 1 (wskazniki do wierszy)\n");
+#else
+      fprintf(stderr,"Memory allocation error 1 (pointers to rows)\n");
+#endif // defined
+      exit(1);
+      m = NULL;
+   }
+   return m;
+}
+//---------------------------------------------------------------------------
+
+
+Zadanie 05.01
+Proszê zmodyfikowaæ program z zadania 04.01 (mno¿enie macierzy) tak aby
+dynamicznie alokowaæ tablice dwuwymiarowe (wed³ug przyk³adu). 
+
+Zadanie 05.02
+Proszê napisaæ program, który zlicza iloœæ s³ów w pliku tekstowym (ASCII). Np.
+na œci¹gniêtej stronie z Internetu.

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1508935810 source:c:\temp\list_example\list_example.c
+	<stdio.h>
+	<stdlib.h>
+
+1509066391 source:c:\pgms\list_example\list_example.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,30 @@
+Poni¿ej parê odnoœników do opisu bardzo wa¿nej struktury, u¿ywanej w programowaniu
+mianowicie listy. Wiele struktur, w tym listy, znajduje siê w standardowej
+bibliotece C++ STL, ale chcia³bym abyœcie Pañstwo poznali i nauczyli siê
+u¿ywaæ list(y) zanim zaczniemy zapoznawaæ siê z bibliotek¹ STL.
+
+https://www.learn-c.org/en/Linked_lists
+
+https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+
+https://www.geeksforgeeks.org/generic-linked-list-in-c-2/
+
+https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/
+
+W Internecie znajdziecie Pañstwo olbrzymi¹ iloœæ przk³adów kodu wykorzystuj¹cego listy.
+
+W za³¹czeniu przyk³ad listy napisany w C++, który u¿ywam na wyk³adzie i zajêciach. 
+Proszê starannie porównaæ ten przyk³ad z innymi, które znajdziecie Pañstwo 
+w Internecie. "Przemycam" w nim ró¿ne pojêcia i elementy sk³adni C++, które
+powinniœcie Pañstwo ju¿ znaæ (tutorial ew. z powiertza czyli Internetu) takie jak
+dziedziczenie, klasa abstrakcyjna, funkcje/metody wirtulane, polimorfizm.
+
+Zadanie 06.01 Rozwiniêcie programu z zadania 05.02 Proszê napisaæ program, który zlicza
+iloœæ ró¿nych s³ów w tekscie. 
+Zadanie 06.02 Proszê uzupe³niæ program z zadania 06.01 o informacjê o czêstotliwoœci
+wystêpowania poszczególnych s³ów.
+
+Zadanie 06.03 
+Proszê napisaæ program, który odwraca 6 bit w 525 bajcie niniejszego tekstu
+zapisanego jako plik .txt (ascii).
+

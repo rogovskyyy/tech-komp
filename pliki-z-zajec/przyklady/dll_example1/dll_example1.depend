@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1621216686 source:c:\pgms\dll_example1\my_dll.cpp
+	"my_dll.h"
+
+1621425389 c:\pgms\dll_example1\my_dll.h
+	<windows.h>
+

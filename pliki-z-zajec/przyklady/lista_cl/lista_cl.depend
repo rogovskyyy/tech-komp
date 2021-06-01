@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1430149116 source:c:\temp\mm\lista_cl\lista_cl.cpp
+	<iostream>
+	<fstream>
+
+1621430566 source:c:\pgms\lista_cl\lista_cl.cpp
+	<iostream>
+	<fstream>
+

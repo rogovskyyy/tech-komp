@@ -1,0 +1,30 @@
+Zadanie 07.01. Proszê napisaæ procedurê alokuj¹ca pamiêæ macierzy M X N dynamicznie, 
+tak by zachowaæ zalety przechowywania ca³ej tablicy w jednym bloku pamiêci 
+(M X N x sizeof(typ danych tablicy) i jednoczeœnie zachowaæ zalety szybkiego dostêpu 
+do elementów tablicy poprzez dodawanie wskaŸników *(*(m + i) + j). 
+Wskazówka:
+Trzeba zmodyfikowaæ procedurê alokacji zamieszczon¹ przy opisie zadania 05.
+
+Zadanie 07.02 Alokujemy dynamicznie tablicê znaków. Powiedzmy o pojemnoœci 40 znaków.
+Oczekujemy, ¿e tablica bêdzie stringiem (³añcuchem tekstowym) w rozumieniu C czyli koñczy siê znakiem '\0'.
+
+char *w;
+
+w = (char*) malloc(40 * sizeof(char));
+
+Wype³niamy j¹ wstêpnie 38 znakami. Np.
+
+strcpy(w,"01234567890123456789012345678901234567");
+
+Proszê napisaæ kod który:
+
+a) doda jeden znak na koñcu tablicy
+b) wstawi znak w dowolnym miejscu (np. 15) tablicy (zachowuj¹c wszystkie ju¿ istniej¹ce)
+c) usunie znak w dowolnym miejscu (np. 25) tablicy, po usuniêciu nie mo¿e byæ "dziur" w ci¹gu znaków
+
+Uwaga.
+W przypadku a) i b) przy wielokrotnym dodawaniu (wstawianiu) znaków mo¿e dojœæ do przekroczenia pojemnoœci tablicy.
+Proszê tak¹ sytuacjê przewidzieæ i "uodporniæ" kod na t¹ okolicznoœæ.
+Zabronienie dodawania kolejnych znaków nie jest dopuszczalnym rozwi¹zaniem.
+Mo¿na zabroniæ dodawania kolejnych znaków tylko wtedy gdy zabraknie nam pamiêci RAM w komputerze.
+
